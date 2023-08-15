@@ -1,0 +1,128 @@
+#head {
+  background-color: #03240c;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #9ae3a3;
+}
+
+#landing {
+  background-color: #0e401b;
+}
+
+#landing h1 {
+  padding-top: 10%;
+}
+
+.logo1 {
+  position: absolute;
+  left: 20px;
+}
+
+.logo {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  display: flex;
+  color: #fff3da;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: #fff3da;
+  display: flex;
+  justify-content: center;
+}
+h2 span {
+  text-decoration: underline;
+  color: #fff3da;
+}
+
+#introduction {
+  background-color: #2e593a;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 10px solid #0e401b;
+  margin-top: 100px;
+}
+
+.intro-text {
+  color: #fff3da;
+  font-size: 1.5em;
+}
+
+.dlsl {
+  text-decoration: none;
+  color: #fff3da;
+  font-size: 20px;
+}
+
+#endpage {
+  padding: 20px;
+  background-color: #03240c;
+}
+
+.skill-set p {
+  color: #fff3da;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.skill-set h3 {
+  padding-top: 40px;
+  color: #fff3da;
+  font-size: 2em;
+}
+
+#projects {
+  background-color: #2e593a;
+}
+
+#projects h1 {
+  padding-bottom: 20px;
+  padding-top: 2em;
+}
+
+.card {
+  background-color: #d1f2d8;
+}
+.card a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card span {
+  padding-left: 15px;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn {
+  margin-left: -5px;
+}
+
+.end-text {
+  padding-left: 20px;
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+  .logo1 {
+    display: none;
+  }
+}
